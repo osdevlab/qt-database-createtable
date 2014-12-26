@@ -18,7 +18,7 @@ bool DatabaseHelper::setDataBasePath(QString filename) {
         qDebug() << "databased is opened sucessfully ";
         return true;
     } else {
-        qDebug() << "failed to open database";
+        qDebug() << "failed to open databased";
         return false;
     }
 }
